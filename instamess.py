@@ -4,7 +4,7 @@ import socket
 
 HEADER = 64
 PORT = 5050
-SERVER = "31.223.57.139" # socket.gethostbyname(socket.gethostname())
+SERVER = socket.gethostbyname(socket.gethostname())
 ADDR = (SERVER, PORT)
 FORMAT = "windows-1254"
 DISCONNECT_MESSAGE = "!DISCONNECT"
